@@ -14,7 +14,11 @@ const Home: NextPage = () => {
   useEffect(() => {
     (async () => {
       const res = await (await fetch('/api/geo')).json();
-      ref.current.placeholder = res.country;
+      const server = servers.find((s) => s.country.includes(res.country));
+      if (server) {
+        ref.current.placeholder = server.country;
+        setCountry(server.country);
+      }
     })();
   }, []);
 
@@ -56,6 +60,7 @@ const Home: NextPage = () => {
           clearable
           onChange={setCountry}
           label="Type your country here"
+          defaultValue={country}
           data={servers.map((s) => s.country)}
         />
 
