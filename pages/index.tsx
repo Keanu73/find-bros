@@ -18,6 +18,9 @@ const Home: NextPage = () => {
       if (server) {
         ref.current.placeholder = server.country;
         setCountry(server.country);
+      } else {
+        ref.current.placeholder = res.country;
+        setOpenedModal(true);
       }
     })();
   }, []);
