@@ -1,0 +1,15 @@
+.main,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.main {
+  min-height: 90vh;
+}
+
+.main .search {
+  padding: 1rem;
+}
