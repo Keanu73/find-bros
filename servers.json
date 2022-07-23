@@ -24,7 +24,7 @@
     "invite": "https://discord.gg/3U5ZtGrPp4"
   },
   {
-    "country": "England",
+    "country": "United Kingdom/England",
     "invite": "https://discord.gg/m4NgBrfNuX"
   },
   {
@@ -112,7 +112,7 @@
     "invite": "https://discord.gg/whJ6JHjMpu"
   },
   {
-    "country": "Scotland",
+    "country": "United Kingdom/Scotland",
     "invite": "https://discord.gg/uAy9Az9Sfu"
   },
   {
@@ -130,5 +130,17 @@
   {
     "country": "Albania",
     "invite": "https://discord.gg/fuauP9aWct"
+  },
+  {
+    "country": "Philippines",
+    "invite": "https://discord.gg/JTfQxmkxRS"
+  },
+  {
+    "country": "Macedonia",
+    "invite": "https://discord.gg/yDTEE6p79e"
+  },
+  {
+    "country": "Lithuania",
+    "invite": "https://discord.gg/gFbBDfdRcX"
   }
 ]
