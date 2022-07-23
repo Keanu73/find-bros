@@ -4,12 +4,19 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
-import { MutableRefObject, useRef, useState } from 'react';
+import { MutableRefObject, useEffect, useRef, useState } from 'react';
 
 const Home: NextPage = () => {
   const [openedModal, setOpenedModal] = useState(false);
   const [country, setCountry] = useState<string | null>('');
   const ref = useRef<HTMLInputElement>() as MutableRefObject<HTMLInputElement>;
+
+  useEffect(() => {
+    (async () => {
+      const res = await (await fetch('/api/geo')).json();
+      ref.current.placeholder = res.country;
+    })();
+  }, []);
 
   return (
     <div className={styles.container}>
