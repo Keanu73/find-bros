@@ -10,8 +10,6 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  console.log(req.headers);
-
   const country =
     cc.find((c) => c.code === (req.headers['x-vercel-ip-country'] as string))
       ?.name || 'United States';
