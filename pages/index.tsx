@@ -7,7 +7,6 @@ import {
   List,
   Text,
   Affix,
-  Avatar,
 } from '@mantine/core';
 import Link from 'next/link';
 import { MutableRefObject, useEffect, useRef, useState } from 'react';
