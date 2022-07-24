@@ -7,6 +7,7 @@ import {
   List,
   Text,
   Affix,
+  Avatar,
 } from '@mantine/core';
 import Link from 'next/link';
 import { MutableRefObject, useEffect, useRef, useState } from 'react';
@@ -16,7 +17,7 @@ import servers from 'servers.json';
 
 const Home: NextPage = () => {
   const [openedModal, setOpenedModal] = useState(false);
-  const [country, setCountry] = useState<string | null>('');
+  const [country, setCountry] = useState<string | null>(null);
   const ref = useRef<HTMLInputElement>() as MutableRefObject<HTMLInputElement>;
 
   useEffect(() => {
@@ -99,15 +100,16 @@ const Home: NextPage = () => {
           timingFunction={'ease'}
           duration={200}
         >
-          {(styles) => (
-            <Link
-              href={servers.find((s) => s.country === country)?.invite || 'tmp'}
-            >
-              <Button style={styles} variant={'light'}>
-                Join server for {country}
-              </Button>
-            </Link>
-          )}
+          {(tstyles) => {
+            const c = servers.find((s) => s.country === country) || servers[0];
+            return (
+              <Link href={c.invite}>
+                <Button style={tstyles} variant={'light'}>
+                  Join server for {c.country}
+                </Button>
+              </Link>
+            );
+          }}
         </Transition>
       </main>
 
