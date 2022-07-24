@@ -224,7 +224,7 @@ const Home: NextPage = () => {
             color: theme.colors.gray[5],
           })}
         >
-          (c) retaps, 2022 // felixsx#9501
+          (c) retaps, 2022
         </Text>
       </footer>
     </div>
