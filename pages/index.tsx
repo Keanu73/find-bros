@@ -113,8 +113,7 @@ const Home: NextPage = () => {
           <Affix style={tstyle} position={{ top: 20, right: 20 }}>
             <Notification
               sx={{
-                width: '350px',
-                maxWidth: '100%',
+                maxWidth: '350px',
               }}
               title="Hamza's Cult"
               onClose={() => setOpenedNotification(false)}
