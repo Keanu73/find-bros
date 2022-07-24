@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
 import { MutableRefObject, useEffect, useRef, useState } from 'react';
+import { ChevronDown } from 'tabler-icons-react';
 
 const Home: NextPage = () => {
   const [openedModal, setOpenedModal] = useState(false);
@@ -63,7 +64,16 @@ const Home: NextPage = () => {
           onChange={setCountry}
           label="Type your country here"
           defaultValue={country}
-          data={servers.map((s) => s.country)}
+          rightSection={<ChevronDown size={14} />}
+          styles={{
+            rightSection: { pointerEvents: 'none' },
+            input: { cursor: 'pointer' },
+          }}
+          data={servers.map((s) => ({
+            ...s,
+            value: s.country,
+            label: s.country,
+          }))}
         />
 
         <Transition
@@ -94,7 +104,7 @@ const Home: NextPage = () => {
         </Button>
 
         <Text
-          mt={'md'}
+          my={'md'}
           sx={(theme) => ({
             color: theme.colors.gray[5],
           })}
