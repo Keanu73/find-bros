@@ -112,6 +112,7 @@ const Home: NextPage = () => {
         {(tstyle) => (
           <Affix style={tstyle} position={{ top: 20, right: 20 }}>
             <Notification
+              ml={'20px'}
               sx={{
                 maxWidth: '350px',
               }}
