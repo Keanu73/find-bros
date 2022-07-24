@@ -68,8 +68,9 @@ const Home: NextPage = () => {
     (async () => {
       const res = await (await fetch('/api/geo')).json();
       const server =
-        servers.find((s) => s.cc === res.region) || // First find by country-region
-        servers.find((s) => s.cc.split('-')[0] === res.country); // Then find by country if no results
+        servers.find((s) => s.cc === res.region) || // First find exact match by country-region
+        servers.find((s) => s.cc === res.country) || // Else find exact match by country
+        servers.find((s) => s.cc.split('-')[0] === res.country); // Then find by matching if no results
 
       if (server) {
         ref.current.placeholder = server.country;
