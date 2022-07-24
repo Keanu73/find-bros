@@ -20,7 +20,6 @@ import {
 import { BrandGithub, MapSearch } from 'tabler-icons-react';
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
-import Image from 'next/image';
 
 interface ItemProps extends React.ComponentPropsWithoutRef<'div'> {
   cc: string;
@@ -60,7 +59,10 @@ const Home: NextPage = () => {
   useEffect(() => {
     (async () => {
       const res = await (await fetch('/api/geo')).json();
-      const server = servers.find((s) => s.cc === res.country);
+      const server =
+        servers.find((s) => s.cc === res.region) ||
+        servers.find((s) => s.cc === res.country);
+
       if (server) {
         ref.current.placeholder = server.country;
         setCountry(server.country);

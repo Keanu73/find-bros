@@ -3,6 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 
 type Data = {
   country: string;
+  region: string;
 };
 
 export default function handler(
@@ -11,7 +12,10 @@ export default function handler(
 ) {
   res.status(200).json({
     country: (
-      (req.headers['x-vercel-ip-country'] as string) || 'us'
+      (req.headers['x-vercel-ip-country'] as string) || 'gb'
+    ).toLowerCase(),
+    region: (
+      (req.headers['x-vercel-ip-country-region'] as string) || 'gb-eng'
     ).toLowerCase(),
   });
 }
