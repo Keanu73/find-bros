@@ -10,7 +10,7 @@ import {
 } from '@mantine/core';
 import Link from 'next/link';
 import { MutableRefObject, useEffect, useRef, useState } from 'react';
-import { BrandGithub, ChevronDown } from 'tabler-icons-react';
+import { BrandGithub } from 'tabler-icons-react';
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
 
@@ -83,7 +83,6 @@ const Home: NextPage = () => {
           onChange={setCountry}
           label="Type your country here"
           defaultValue={country}
-          rightSection={<ChevronDown size={14} />}
           styles={{
             rightSection: { pointerEvents: 'none' },
             input: { cursor: 'pointer' },
