@@ -1,8 +1,16 @@
 import type { NextPage } from 'next';
-import { Button, Select, Transition, Modal, List, Text } from '@mantine/core';
+import {
+  Button,
+  Select,
+  Transition,
+  Modal,
+  List,
+  Text,
+  Affix,
+} from '@mantine/core';
 import Link from 'next/link';
 import { MutableRefObject, useEffect, useRef, useState } from 'react';
-import { ChevronDown } from 'tabler-icons-react';
+import { BrandGithub, ChevronDown } from 'tabler-icons-react';
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
 
@@ -27,6 +35,17 @@ const Home: NextPage = () => {
 
   return (
     <div className={styles.container}>
+      <Affix position={{ top: 20, right: 20 }}>
+        <Button
+          variant="light"
+          component="a"
+          href="https://github.com/retaps/find-bros"
+          target={'_blank'}
+        >
+          <BrandGithub />
+        </Button>
+      </Affix>
+
       <Modal
         centered
         opened={openedModal}
