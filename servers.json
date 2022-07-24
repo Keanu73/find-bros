@@ -130,6 +130,11 @@
     "cc": "SI"
   },
   {
+    "country": "Bangladesh",
+    "invite": "https://discord.gg/ED54CMWpH4",
+    "cc": "BD"
+  },
+  {
     "country": "Iran",
     "invite": "https://discord.gg/r7Vyp4TnHM",
     "cc": "IR"
@@ -233,5 +238,10 @@
     "country": "Puerto Rico",
     "invite": "https://discord.gg/NVBu9shyst",
     "cc": "PR"
+  },
+  {
+    "country": "New Zealand",
+    "invite": "https://discord.gg/qYSGysExep",
+    "cc": "NZ"
   }
 ]
