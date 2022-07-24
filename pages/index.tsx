@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import { Button, Select, Transition, Modal, List, Text } from '@mantine/core';
-import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
@@ -14,12 +13,12 @@ const Home: NextPage = () => {
   useEffect(() => {
     (async () => {
       const res = await (await fetch('/api/geo')).json();
-      const server = servers.find((s) => s.country.includes(res.country));
+      const server = servers.find((s) => s.cc === res.country);
       if (server) {
         ref.current.placeholder = server.country;
         setCountry(server.country);
       } else {
-        ref.current.placeholder = res.country;
+        ref.current.placeholder = servers[0].country;
         setOpenedModal(true);
       }
     })();

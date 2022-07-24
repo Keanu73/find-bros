@@ -1,135 +1,168 @@
 [
   {
     "country": "Italy",
-    "invite": "https://discord.gg/wsAWc37SgW"
+    "invite": "https://discord.gg/wsAWc37SgW",
+    "cc": "IT"
   },
   {
     "country": "Canada",
-    "invite": "https://discord.gg/vevbsx8zqy"
+    "invite": "https://discord.gg/vevbsx8zqy",
+    "cc": "CA"
   },
   {
     "country": "Poland",
-    "invite": "https://discord.gg/qKcPtRCwEn"
+    "invite": "https://discord.gg/qKcPtRCwEn",
+    "cc": "PL"
   },
   {
     "country": "Belgium",
-    "invite": "https://discord.gg/3U5ZtGrPp4"
+    "invite": "https://discord.gg/3U5ZtGrPp4",
+    "cc": "BE"
   },
   {
     "country": "Netherlands",
-    "invite": "https://discord.gg/3U5ZtGrPp4"
+    "invite": "https://discord.gg/3U5ZtGrPp4",
+    "cc": "NL"
   },
   {
     "country": "Luxembourg",
-    "invite": "https://discord.gg/3U5ZtGrPp4"
+    "invite": "https://discord.gg/3U5ZtGrPp4",
+    "cc": "LU"
   },
   {
     "country": "United Kingdom/England",
-    "invite": "https://discord.gg/m4NgBrfNuX"
+    "invite": "https://discord.gg/m4NgBrfNuX",
+    "cc": "GB"
   },
   {
     "country": "Sweden",
-    "invite": "https://discord.gg/sWmNyWuwr7"
+    "invite": "https://discord.gg/sWmNyWuwr7",
+    "cc": "SE"
   },
   {
     "country": "Australia",
-    "invite": "https://discord.gg/rGtxTwngec"
+    "invite": "https://discord.gg/rGtxTwngec",
+    "cc": "AU"
   },
   {
     "country": "Georgia",
-    "invite": "https://discord.gg/CNzAw78bxX"
+    "invite": "https://discord.gg/CNzAw78bxX",
+    "cc": "GE"
   },
   {
     "country": "Greece",
-    "invite": "https://discord.gg/2KrWZtZqdh"
+    "invite": "https://discord.gg/2KrWZtZqdh",
+    "cc": "GR"
   },
   {
     "country": "Croatia",
-    "invite": "https://discord.gg/sgVZWJMYCj"
+    "invite": "https://discord.gg/sgVZWJMYCj",
+    "cc": "HR"
   },
   {
     "country": "Germany",
-    "invite": "https://discord.gg/EgrhYMQkqv"
+    "invite": "https://discord.gg/EgrhYMQkqv",
+    "cc": "DE"
   },
   {
     "country": "Pakistan",
-    "invite": "https://discord.gg/ZHrHeSw3CX"
+    "invite": "https://discord.gg/ZHrHeSw3CX",
+    "cc": "PK"
   },
   {
     "country": "Egypt",
-    "invite": "https://discord.gg/arbun9xfvB"
+    "invite": "https://discord.gg/arbun9xfvB",
+    "cc": "EG"
   },
   {
     "country": "France",
-    "invite": "https://discord.gg/PfcCb9PKEQ"
+    "invite": "https://discord.gg/PfcCb9PKEQ",
+    "cc": "FR"
   },
   {
     "country": "Armenia",
-    "invite": "https://discord.gg/EDmQJgcAEh"
+    "invite": "https://discord.gg/EDmQJgcAEh",
+    "cc": "AM"
   },
   {
     "country": "Portugal",
-    "invite": "https://discord.gg/9mpunMqUNV"
+    "invite": "https://discord.gg/9mpunMqUNV",
+    "cc": "PT"
   },
   {
     "country": "Czech Republic",
-    "invite": "https://discord.gg/2bqjyjhZJh"
+    "invite": "https://discord.gg/2bqjyjhZJh",
+    "cc": "CZ"
   },
   {
     "country": "Slovakia",
-    "invite": "https://discord.gg/2bqjyjhZJh"
+    "invite": "https://discord.gg/2bqjyjhZJh",
+    "cc": "SK"
   },
   {
     "country": "Hungary",
-    "invite": "https://discord.gg/SbGqFbdA7s"
+    "invite": "https://discord.gg/SbGqFbdA7s",
+    "cc": "HU"
   },
   {
     "country": "Romania",
-    "invite": "https://discord.gg/DZFD57QVuz"
+    "invite": "https://discord.gg/DZFD57QVuz",
+    "cc": "RO"
   },
   {
     "country": "United States/America",
-    "invite": "https://discord.gg/3zWXdZxC6a"
+    "invite": "https://discord.gg/3zWXdZxC6a",
+    "cc": "US"
   },
   {
     "country": "India",
-    "invite": "https://discord.gg/h3tBZuCcDR"
+    "invite": "https://discord.gg/h3tBZuCcDR",
+    "cc": "IO"
   },
   {
     "country": "Nepal",
-    "invite": "https://discord.gg/wPfJTg6pCy"
+    "invite": "https://discord.gg/wPfJTg6pCy",
+    "cc": "NP"
   },
   {
     "country": "Slovenia",
-    "invite": "https://discord.gg/YSwSX7B8Hs"
+    "invite": "https://discord.gg/YSwSX7B8Hs",
+    "cc": "SI"
   },
   {
     "country": "Bangladesh",
-    "invite": "https://discord.gg/EammRzjSjE"
+    "invite": "https://discord.gg/EammRzjSjE",
+    "cc": "BD"
   },
   {
     "country": "Iran",
-    "invite": "https://discord.gg/r7Vyp4TnHM"
+    "invite": "https://discord.gg/r7Vyp4TnHM",
+    "cc": "IR"
   },
   {
     "country": "Iraq",
-    "invite": "https://discord.gg/whJ6JHjMpu"
+    "invite": "https://discord.gg/whJ6JHjMpu",
+    "cc": "IQ"
   },
   {
     "country": "United Kingdom/Scotland",
-    "invite": "https://discord.gg/uAy9Az9Sfu"
+    "invite": "https://discord.gg/uAy9Az9Sfu",
+    "cc": "GB"
   },
   {
     "country": "Israel",
-    "invite": "https://discord.gg/JQNUQaC2EP"
+    "invite": "https://discord.gg/JQNUQaC2EP",
+    "cc": "IL"
   },
   {
     "country": "Azerbaijan",
-    "invite": "https://discord.gg/PvEBaSJSqd"
+    "invite": "https://discord.gg/PvEBaSJSqd",
+    "cc": "AZ"
   },
   {
     "country": "Ireland",
-    "invite": "https://discord.gg/N6MGJTzgKg"
+    "invite": "https://discord.gg/N6MGJTzgKg",
+    "cc": "IE"
   },
   {
     "country": "Kosovo",
@@ -137,34 +170,42 @@
   },
   {
     "country": "Albania",
-    "invite": "https://discord.gg/fuauP9aWct"
+    "invite": "https://discord.gg/fuauP9aWct",
+    "cc": "AL"
   },
   {
     "country": "Philippines",
-    "invite": "https://discord.gg/JTfQxmkxRS"
+    "invite": "https://discord.gg/JTfQxmkxRS",
+    "cc": "PH"
   },
   {
     "country": "Macedonia",
-    "invite": "https://discord.gg/yDTEE6p79e"
+    "invite": "https://discord.gg/yDTEE6p79e",
+    "cc": "MK"
   },
   {
     "country": "Lithuania",
-    "invite": "https://discord.gg/gFbBDfdRcX"
+    "invite": "https://discord.gg/gFbBDfdRcX",
+    "cc": "LT"
   },
   {
     "country": "Brazil/Brasil",
-    "invite": "https://discord.gg/gRPsENzWwG"
+    "invite": "https://discord.gg/gRPsENzWwG",
+    "cc": "BR"
   },
   {
     "country": "Russia",
-    "invite": "https://discord.gg/wJkwr4PRFP"
+    "invite": "https://discord.gg/wJkwr4PRFP",
+    "cc": "RU"
   },
   {
     "country": "Latvia",
-    "invite": "https://discord.gg/fTKCbUaH62"
+    "invite": "https://discord.gg/fTKCbUaH62",
+    "cc": "LV"
   },
   {
     "country": "Denmark",
-    "invite": "https://discord.gg/XTKmxdhHB4"
+    "invite": "https://discord.gg/XTKmxdhHB4",
+    "cc": "DK"
   }
 ]
