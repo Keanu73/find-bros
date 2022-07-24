@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 
+  /*
   async rewrites() {
     return [
       {
@@ -11,6 +12,7 @@ const nextConfig = {
       },
     ];
   },
+  */
 };
 
 module.exports = nextConfig;
