@@ -14,13 +14,12 @@ export default function handler(
     (req.headers['x-vercel-ip-country'] as string) || 'gb'
   ).toLowerCase();
 
-  const region =
-    country +
-    '-' +
-    ((req.headers['x-vercel-ip-country-region'] as string) || 'eng');
+  const region = (
+    (req.headers['x-vercel-ip-country-region'] as string) || ''
+  ).toLowerCase();
 
   res.status(200).json({
-    country: country.toLowerCase(),
-    region: region.toLowerCase(),
+    country: country,
+    region: region.length ? `${country}-${region}` : country,
   });
 }
