@@ -1,4 +1,7 @@
 import type { NextPage } from 'next';
+
+import Link from 'next/link';
+
 import {
   Button,
   Select,
@@ -8,8 +11,10 @@ import {
   Text,
   Affix,
   Group,
+  Notification,
+  Stack,
 } from '@mantine/core';
-import Link from 'next/link';
+
 import {
   forwardRef,
   MutableRefObject,
@@ -17,7 +22,9 @@ import {
   useRef,
   useState,
 } from 'react';
+
 import { BrandDiscord, BrandGithub, MapSearch } from 'tabler-icons-react';
+
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
 
@@ -53,6 +60,7 @@ SelectItem.displayName = 'SelectItem';
 
 const Home: NextPage = () => {
   const [openedModal, setOpenedModal] = useState(false);
+  const [openedNotification, setOpenedNotification] = useState(true);
   const [country, setCountry] = useState<string | null>(null);
   const ref = useRef<HTMLInputElement>() as MutableRefObject<HTMLInputElement>;
 
@@ -94,6 +102,41 @@ const Home: NextPage = () => {
           </Button>
         </Group>
       </Affix>
+
+      <Transition
+        mounted={openedNotification}
+        transition={'slide-down'}
+        timingFunction={'ease'}
+        duration={200}
+      >
+        {(tstyle) => (
+          <Affix style={tstyle} position={{ top: 20, right: 20 }}>
+            <Notification
+              sx={{
+                width: '350px',
+                maxWidth: '100%',
+              }}
+              title="Hamza's Cult"
+              onClose={() => setOpenedNotification(false)}
+            >
+              <Stack>
+                {
+                  "We're a community of motivated and driven individuals working to achieve our goals."
+                }
+                <Button
+                  variant="subtle"
+                  component="a"
+                  href="https://discord.gg/hamza"
+                  target={'_blank'}
+                  leftIcon={<BrandDiscord />}
+                >
+                  Join Us
+                </Button>
+              </Stack>
+            </Notification>
+          </Affix>
+        )}
+      </Transition>
 
       <Modal
         centered
