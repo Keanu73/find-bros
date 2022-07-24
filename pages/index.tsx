@@ -7,12 +7,50 @@ import {
   List,
   Text,
   Affix,
+  Group,
 } from '@mantine/core';
 import Link from 'next/link';
-import { MutableRefObject, useEffect, useRef, useState } from 'react';
-import { BrandGithub } from 'tabler-icons-react';
+import {
+  forwardRef,
+  MutableRefObject,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
+import { BrandGithub, MapSearch } from 'tabler-icons-react';
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
+import Image from 'next/image';
+
+interface ItemProps extends React.ComponentPropsWithoutRef<'div'> {
+  cc: string;
+  label: string;
+}
+
+const SelectItem = forwardRef<HTMLDivElement, ItemProps>(
+  ({ label, cc, ...others }: ItemProps, ref) => (
+    <div ref={ref} {...others}>
+      <Group noWrap>
+        <picture>
+          <source src={`/flags/${cc}.png`} type="image/png"></source>
+          <img
+            src={`/flags/${cc}.png`}
+            width={'24px'}
+            alt={`${label} flag`}
+          ></img>
+        </picture>
+        <div>
+          <Text size="sm">{label}</Text>
+          <Text size="xs" color="dimmed">
+            {cc.toUpperCase()}
+          </Text>
+        </div>
+      </Group>
+    </div>
+  )
+);
+
+SelectItem.displayName = 'SelectItem';
 
 const Home: NextPage = () => {
   const [openedModal, setOpenedModal] = useState(false);
@@ -80,7 +118,11 @@ const Home: NextPage = () => {
           ref={ref}
           searchable
           clearable
+          creatable
           onChange={setCountry}
+          onCreate={() => setOpenedModal(true)}
+          getCreateLabel={(query) => `+ ${query}`}
+          icon={<MapSearch />}
           label="Type your country here"
           defaultValue={country}
           styles={{
@@ -91,6 +133,7 @@ const Home: NextPage = () => {
             value: s.country,
             label: s.country,
           }))}
+          itemComponent={SelectItem}
         />
 
         <Transition

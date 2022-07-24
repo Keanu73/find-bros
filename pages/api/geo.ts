@@ -10,6 +10,8 @@ export default function handler(
   res: NextApiResponse<Data>
 ) {
   res.status(200).json({
-    country: (req.headers['x-vercel-ip-country'] as string) || 'US',
+    country: (
+      (req.headers['x-vercel-ip-country'] as string) || 'us'
+    ).toLowerCase(),
   });
 }
