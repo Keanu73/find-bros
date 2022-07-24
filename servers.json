@@ -1,83 +1,18 @@
 [
   {
-    "country": "Italy",
-    "invite": "https://discord.gg/wsAWc37SgW",
-    "cc": "it"
+    "country": "Albania",
+    "invite": "https://discord.gg/fuauP9aWct",
+    "cc": "al"
   },
   {
-    "country": "Canada",
-    "invite": "https://discord.gg/vevbsx8zqy",
-    "cc": "ca"
+    "country": "Algeria",
+    "invite": "https://discord.gg/TFctksSEr3",
+    "cc": "dz"
   },
   {
-    "country": "Poland",
-    "invite": "https://discord.gg/qKcPtRCwEn",
-    "cc": "pl"
-  },
-  {
-    "country": "Belgium",
-    "invite": "https://discord.gg/3U5ZtGrPp4",
-    "cc": "be"
-  },
-  {
-    "country": "Netherlands",
-    "invite": "https://discord.gg/3U5ZtGrPp4",
-    "cc": "nl"
-  },
-  {
-    "country": "Luxembourg",
-    "invite": "https://discord.gg/3U5ZtGrPp4",
-    "cc": "lu"
-  },
-  {
-    "country": "UK/England",
-    "invite": "https://discord.gg/m4NgBrfNuX",
-    "cc": "gb-eng"
-  },
-  {
-    "country": "Sweden",
-    "invite": "https://discord.gg/sWmNyWuwr7",
-    "cc": "se"
-  },
-  {
-    "country": "Australia",
-    "invite": "https://discord.gg/rGtxTwngec",
-    "cc": "au"
-  },
-  {
-    "country": "Georgia",
-    "invite": "https://discord.gg/CNzAw78bxX",
-    "cc": "ge"
-  },
-  {
-    "country": "Greece",
-    "invite": "https://discord.gg/2KrWZtZqdh",
-    "cc": "gr"
-  },
-  {
-    "country": "Croatia",
-    "invite": "https://discord.gg/sgVZWJMYCj",
-    "cc": "hr"
-  },
-  {
-    "country": "Germany",
-    "invite": "https://discord.gg/EgrhYMQkqv",
-    "cc": "de"
-  },
-  {
-    "country": "Pakistan",
-    "invite": "https://discord.gg/ZHrHeSw3CX",
-    "cc": "pk"
-  },
-  {
-    "country": "Egypt",
-    "invite": "https://discord.gg/arbun9xfvB",
-    "cc": "eg"
-  },
-  {
-    "country": "France",
-    "invite": "https://discord.gg/PfcCb9PKEQ",
-    "cc": "fr"
+    "country": "Argentina",
+    "invite": "https://discord.gg/uN9mrHGxtx",
+    "cc": "ar"
   },
   {
     "country": "Armenia",
@@ -85,9 +20,44 @@
     "cc": "am"
   },
   {
-    "country": "Portugal",
-    "invite": "https://discord.gg/9mpunMqUNV",
-    "cc": "pt"
+    "country": "Australia",
+    "invite": "https://discord.gg/rGtxTwngec",
+    "cc": "au"
+  },
+  {
+    "country": "Azerbaijan",
+    "invite": "https://discord.gg/PvEBaSJSqd",
+    "cc": "az"
+  },
+  {
+    "country": "Bangladesh",
+    "invite": "https://discord.gg/ED54CMWpH4",
+    "cc": "bd"
+  },
+  {
+    "country": "Belgium",
+    "invite": "https://discord.gg/3U5ZtGrPp4",
+    "cc": "be"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "invite": "https://discord.gg/y6NNhDRPw4",
+    "cc": "ba"
+  },
+  {
+    "country": "Brazil",
+    "invite": "https://discord.gg/gRPsENzWwG",
+    "cc": "br"
+  },
+  {
+    "country": "Canada",
+    "invite": "https://discord.gg/vevbsx8zqy",
+    "cc": "ca"
+  },
+  {
+    "country": "Croatia",
+    "invite": "https://discord.gg/sgVZWJMYCj",
+    "cc": "hr"
   },
   {
     "country": "Czech Republic",
@@ -95,9 +65,39 @@
     "cc": "cz"
   },
   {
-    "country": "Slovakia",
-    "invite": "https://discord.gg/2bqjyjhZJh",
-    "cc": "sk"
+    "country": "Denmark",
+    "invite": "https://discord.gg/XTKmxdhHB4",
+    "cc": "dk"
+  },
+  {
+    "country": "Egypt",
+    "invite": "https://discord.gg/arbun9xfvB",
+    "cc": "eg"
+  },
+  {
+    "country": "Finland",
+    "invite": "https://discord.gg/QXvaYFCsny",
+    "cc": "fi"
+  },
+  {
+    "country": "France",
+    "invite": "https://discord.gg/PfcCb9PKEQ",
+    "cc": "fr"
+  },
+  {
+    "country": "Georgia",
+    "invite": "https://discord.gg/CNzAw78bxX",
+    "cc": "ge"
+  },
+  {
+    "country": "Germany",
+    "invite": "https://discord.gg/EgrhYMQkqv",
+    "cc": "de"
+  },
+  {
+    "country": "Greece",
+    "invite": "https://discord.gg/2KrWZtZqdh",
+    "cc": "gr"
   },
   {
     "country": "Hungary",
@@ -105,34 +105,9 @@
     "cc": "hu"
   },
   {
-    "country": "Romania",
-    "invite": "https://discord.gg/DZFD57QVuz",
-    "cc": "ro"
-  },
-  {
-    "country": "United States",
-    "invite": "https://discord.gg/3zWXdZxC6a",
-    "cc": "us"
-  },
-  {
     "country": "India",
     "invite": "https://discord.gg/h3tBZuCcDR",
     "cc": "in"
-  },
-  {
-    "country": "Nepal",
-    "invite": "https://discord.gg/wPfJTg6pCy",
-    "cc": "np"
-  },
-  {
-    "country": "Slovenia",
-    "invite": "https://discord.gg/YSwSX7B8Hs",
-    "cc": "si"
-  },
-  {
-    "country": "Bangladesh",
-    "invite": "https://discord.gg/ED54CMWpH4",
-    "cc": "bd"
   },
   {
     "country": "Iran",
@@ -145,9 +120,9 @@
     "cc": "iq"
   },
   {
-    "country": "UK/Scotland",
-    "invite": "https://discord.gg/uAy9Az9Sfu",
-    "cc": "gb-sct"
+    "country": "Ireland",
+    "invite": "https://discord.gg/N6MGJTzgKg",
+    "cc": "ie"
   },
   {
     "country": "Israel",
@@ -155,14 +130,9 @@
     "cc": "il"
   },
   {
-    "country": "Azerbaijan",
-    "invite": "https://discord.gg/PvEBaSJSqd",
-    "cc": "az"
-  },
-  {
-    "country": "Ireland",
-    "invite": "https://discord.gg/N6MGJTzgKg",
-    "cc": "ie"
+    "country": "Italy",
+    "invite": "https://discord.gg/wsAWc37SgW",
+    "cc": "it"
   },
   {
     "country": "Kosovo",
@@ -170,19 +140,9 @@
     "cc": "xk"
   },
   {
-    "country": "Albania",
-    "invite": "https://discord.gg/fuauP9aWct",
-    "cc": "al"
-  },
-  {
-    "country": "Philippines",
-    "invite": "https://discord.gg/JTfQxmkxRS",
-    "cc": "ph"
-  },
-  {
-    "country": "Macedonia",
-    "invite": "https://discord.gg/yDTEE6p79e",
-    "cc": "mk"
+    "country": "Latvia",
+    "invite": "https://discord.gg/fTKCbUaH62",
+    "cc": "lv"
   },
   {
     "country": "Lithuania",
@@ -190,54 +150,24 @@
     "cc": "lt"
   },
   {
-    "country": "Brazil",
-    "invite": "https://discord.gg/gRPsENzWwG",
-    "cc": "br"
+    "country": "Luxembourg",
+    "invite": "https://discord.gg/3U5ZtGrPp4",
+    "cc": "lu"
   },
   {
-    "country": "Russia",
-    "invite": "https://discord.gg/wJkwr4PRFP",
-    "cc": "ru"
+    "country": "Macedonia",
+    "invite": "https://discord.gg/yDTEE6p79e",
+    "cc": "mk"
   },
   {
-    "country": "Latvia",
-    "invite": "https://discord.gg/fTKCbUaH62",
-    "cc": "lv"
+    "country": "Nepal",
+    "invite": "https://discord.gg/wPfJTg6pCy",
+    "cc": "np"
   },
   {
-    "country": "Denmark",
-    "invite": "https://discord.gg/XTKmxdhHB4",
-    "cc": "dk"
-  },
-  {
-    "country": "Argentina",
-    "invite": "https://discord.gg/uN9mrHGxtx",
-    "cc": "ar"
-  },
-  {
-    "country": "Serbia",
-    "invite": "https://discord.gg/EA9md5cJ8t",
-    "cc": "rs"
-  },
-  {
-    "country": "Türkiye/Turkey",
-    "invite": "https://discord.gg/Ktn36Cm8NZ",
-    "cc": "tr"
-  },
-  {
-    "country": "Algeria",
-    "invite": "https://discord.gg/TFctksSEr3",
-    "cc": "dz"
-  },
-  {
-    "country": "Tunisia",
-    "invite": "https://discord.gg/7rZBmAHN5e",
-    "cc": "tn"
-  },
-  {
-    "country": "Puerto Rico",
-    "invite": "https://discord.gg/NVBu9shyst",
-    "cc": "pr"
+    "country": "Netherlands",
+    "invite": "https://discord.gg/3U5ZtGrPp4",
+    "cc": "nl"
   },
   {
     "country": "New Zealand",
@@ -245,18 +175,88 @@
     "cc": "nz"
   },
   {
-    "country": "Finland",
-    "invite": "https://discord.gg/QXvaYFCsny",
-    "cc": "fi"
+    "country": "Pakistan",
+    "invite": "https://discord.gg/ZHrHeSw3CX",
+    "cc": "pk"
   },
   {
-    "country": "Bosnia and Herzegovina",
-    "invite": "https://discord.gg/y6NNhDRPw4",
-    "cc": "ba"
+    "country": "Philippines",
+    "invite": "https://discord.gg/JTfQxmkxRS",
+    "cc": "ph"
+  },
+  {
+    "country": "Poland",
+    "invite": "https://discord.gg/qKcPtRCwEn",
+    "cc": "pl"
+  },
+  {
+    "country": "Portugal",
+    "invite": "https://discord.gg/9mpunMqUNV",
+    "cc": "pt"
+  },
+  {
+    "country": "Puerto Rico",
+    "invite": "https://discord.gg/NVBu9shyst",
+    "cc": "pr"
+  },
+  {
+    "country": "Romania",
+    "invite": "https://discord.gg/DZFD57QVuz",
+    "cc": "ro"
+  },
+  {
+    "country": "Russia",
+    "invite": "https://discord.gg/wJkwr4PRFP",
+    "cc": "ru"
+  },
+  {
+    "country": "Serbia",
+    "invite": "https://discord.gg/EA9md5cJ8t",
+    "cc": "rs"
+  },
+  {
+    "country": "Slovakia",
+    "invite": "https://discord.gg/2bqjyjhZJh",
+    "cc": "sk"
+  },
+  {
+    "country": "Slovenia",
+    "invite": "https://discord.gg/YSwSX7B8Hs",
+    "cc": "si"
   },
   {
     "country": "South Africa",
     "invite": "https://discord.gg/urE9DNPPK5",
     "cc": "za"
+  },
+  {
+    "country": "Sweden",
+    "invite": "https://discord.gg/sWmNyWuwr7",
+    "cc": "se"
+  },
+  {
+    "country": "Tunisia",
+    "invite": "https://discord.gg/7rZBmAHN5e",
+    "cc": "tn"
+  },
+  {
+    "country": "Türkiye/Turkey",
+    "invite": "https://discord.gg/Ktn36Cm8NZ",
+    "cc": "tr"
+  },
+  {
+    "country": "UK/England",
+    "invite": "https://discord.gg/m4NgBrfNuX",
+    "cc": "gb-eng"
+  },
+  {
+    "country": "UK/Scotland",
+    "invite": "https://discord.gg/uAy9Az9Sfu",
+    "cc": "gb-sct"
+  },
+  {
+    "country": "United States",
+    "invite": "https://discord.gg/3zWXdZxC6a",
+    "cc": "us"
   }
 ]
