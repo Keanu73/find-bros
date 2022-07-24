@@ -84,7 +84,6 @@ const Home: NextPage = () => {
           label="Type your country here"
           defaultValue={country}
           styles={{
-            rightSection: { pointerEvents: 'none' },
             input: { cursor: 'pointer' },
           }}
           data={servers.map((s) => ({
