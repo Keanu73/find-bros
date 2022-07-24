@@ -1,10 +1,10 @@
 import type { NextPage } from 'next';
 import { Button, Select, Transition, Modal, List, Text } from '@mantine/core';
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
-import servers from 'servers.json';
 import { MutableRefObject, useEffect, useRef, useState } from 'react';
 import { ChevronDown } from 'tabler-icons-react';
+import styles from '../styles/Home.module.css';
+import servers from 'servers.json';
 
 const Home: NextPage = () => {
   const [openedModal, setOpenedModal] = useState(false);
