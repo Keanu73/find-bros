@@ -10,12 +10,17 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
+  const country = (
+    (req.headers['x-vercel-ip-country'] as string) || 'gb'
+  ).toLowerCase();
+
+  const region =
+    country +
+    '-' +
+    ((req.headers['x-vercel-ip-country-region'] as string) || 'eng');
+
   res.status(200).json({
-    country: (
-      (req.headers['x-vercel-ip-country'] as string) || 'gb'
-    ).toLowerCase(),
-    region: (
-      (req.headers['x-vercel-ip-country-region'] as string) || 'gb-eng'
-    ).toLowerCase(),
+    country: country.toLowerCase(),
+    region: region.toLowerCase(),
   });
 }
