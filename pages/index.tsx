@@ -49,8 +49,8 @@ const Home: NextPage = () => {
             <a href="https://discord.com/template/2AAUGBqBm3Nm">template</a>.
           </List.Item>
           <List.Item>
-            Contact <b>Agro7#0007</b> on Discord so we can add your server to
-            the list.
+            Contact <b>Agro7#0007</b> or <b>felixsx#9501</b> on Discord so we
+            can add your server to the list.
           </List.Item>
         </List>
       </Modal>
