@@ -17,7 +17,7 @@ import {
   useRef,
   useState,
 } from 'react';
-import { BrandGithub, MapSearch } from 'tabler-icons-react';
+import { BrandDiscord, BrandGithub, MapSearch } from 'tabler-icons-react';
 import styles from '../styles/Home.module.css';
 import servers from 'servers.json';
 
@@ -75,14 +75,24 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Affix position={{ top: 20, right: 20 }}>
-        <Button
-          variant="light"
-          component="a"
-          href="https://github.com/retaps/find-bros"
-          target={'_blank'}
-        >
-          <BrandGithub />
-        </Button>
+        <Group>
+          <Button
+            variant="light"
+            component="a"
+            href="https://github.com/retaps/find-bros"
+            target={'_blank'}
+          >
+            <BrandGithub />
+          </Button>
+          <Button
+            variant="light"
+            component="a"
+            href="https://discord.gg/hamza"
+            target={'_blank'}
+          >
+            <BrandDiscord />
+          </Button>
+        </Group>
       </Affix>
 
       <Modal
