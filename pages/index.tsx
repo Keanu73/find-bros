@@ -234,7 +234,7 @@ const Home: NextPage = () => {
             const c = servers.find((s) => s.country === country) || servers[0];
             return (
               <Link href={c.invite}>
-                <Button title={'Join server for' + c.country} style={tstyles}>
+                <Button title={'Join server for ' + c.country} style={tstyles}>
                   Join server for {c.country}
                 </Button>
               </Link>
