@@ -90,6 +90,7 @@ const Home: NextPage = () => {
             component="a"
             href="https://github.com/retaps/find-bros"
             target={'_blank'}
+            title="View source on Github"
           >
             <BrandGithub />
           </Button>
@@ -98,6 +99,7 @@ const Home: NextPage = () => {
             component="a"
             href="https://discord.gg/hamza"
             target={'_blank'}
+            title="Join Hamza's Discord Server"
           >
             <BrandDiscord />
           </Button>
@@ -113,6 +115,7 @@ const Home: NextPage = () => {
         {(tstyle) => (
           <Affix style={tstyle} position={{ top: 20, right: 20 }}>
             <Notification
+              closeButtonProps={{ title: 'Hide notification' }}
               ml={'20px'}
               sx={{
                 maxWidth: '350px',
@@ -130,6 +133,7 @@ const Home: NextPage = () => {
                   href="https://discord.gg/hamza"
                   target={'_blank'}
                   leftIcon={<BrandDiscord />}
+                  title="Join Hamza's Discord Server"
                 >
                   Join Us
                 </Button>
@@ -155,16 +159,43 @@ const Home: NextPage = () => {
           {"Here's the steps you can follow if you choose to do so:"}
         </Text>
 
-        <List mt={'xl'}>
+        <List my={'xl'}>
           <List.Item>
             Create a server using the following{' '}
-            <a href="https://discord.com/template/2AAUGBqBm3Nm">template</a>.
+            <a
+              target={'_blank'}
+              rel={'noreferrer'}
+              href="https://discord.com/template/2AAUGBqBm3Nm"
+            >
+              template
+            </a>
+            .
           </List.Item>
           <List.Item>
-            Contact <b>Agro7#0007</b> or <b>felixsx#9501</b> on Discord so we
-            can add your server to the list.
+            Contact <b>felixsx#9501</b> on Discord so we can add your server to
+            the list.
           </List.Item>
         </List>
+
+        <Text>
+          {'Alternatively, you can request a server for your country in the '}
+          <a
+            target={'_blank'}
+            rel={'noreferrer'}
+            href="https://discord.com/channels/811270187843977236/996692905358004284"
+          >
+            {'#global-hub-suggestions'}
+          </a>
+          {' channel of the '}
+          <a
+            target={'_blank'}
+            rel={'noreferrer'}
+            href="https://discord.gg/hamza"
+          >
+            Discord Server
+          </a>
+          .
+        </Text>
       </Modal>
 
       <main className={styles.main}>
@@ -200,10 +231,8 @@ const Home: NextPage = () => {
           {(tstyles) => {
             const c = servers.find((s) => s.country === country) || servers[0];
             return (
-              <Link href={c.invite}>
-                <Button style={tstyles} variant={'light'}>
-                  Join server for {c.country}
-                </Button>
+              <Link title="Join Hamza's Discord Server" href={c.invite}>
+                <Button style={tstyles}>Join server for {c.country}</Button>
               </Link>
             );
           }}
@@ -215,6 +244,7 @@ const Home: NextPage = () => {
           color={'red'}
           variant="outline"
           onClick={() => setOpenedModal(true)}
+          title={"Click here if you can't find your country"}
         >
           {"Can't find your country?"}
         </Button>
@@ -222,7 +252,10 @@ const Home: NextPage = () => {
         <Text
           my={'md'}
           sx={(theme) => ({
-            color: theme.colors.gray[5],
+            color:
+              theme.colorScheme === 'light'
+                ? theme.colors.gray[8]
+                : theme.colorScheme[4],
           })}
         >
           (c) retaps, 2022
