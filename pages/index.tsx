@@ -149,6 +149,7 @@ const Home: NextPage = () => {
         onClose={() => setOpenedModal(false)}
         title="Country not found!"
         size={'lg'}
+        closeButtonLabel={'Close modal'}
       >
         <Text>
           {
