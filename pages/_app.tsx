@@ -12,6 +12,11 @@ export default function App(props: AppProps) {
         <title>Find self improvement servers</title>
 
         <link rel="icon" href="/favicon.ico" />
+
+        <meta
+          name="description"
+          content="Find self improvement communities from your country"
+        />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
