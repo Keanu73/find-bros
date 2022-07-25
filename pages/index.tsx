@@ -13,6 +13,7 @@ import {
   Group,
   Notification,
   Stack,
+  Anchor,
 } from '@mantine/core';
 
 import {
@@ -163,13 +164,13 @@ const Home: NextPage = () => {
         <List my={'xl'}>
           <List.Item>
             Create a server using the following{' '}
-            <a
+            <Anchor
               target={'_blank'}
               rel={'noreferrer'}
               href="https://discord.com/template/2AAUGBqBm3Nm"
             >
               template
-            </a>
+            </Anchor>
             .
           </List.Item>
           <List.Item>
@@ -180,21 +181,21 @@ const Home: NextPage = () => {
 
         <Text>
           {'Alternatively, you can request a server for your country in the '}
-          <a
+          <Anchor
             target={'_blank'}
             rel={'noreferrer'}
             href="https://discord.com/channels/811270187843977236/996692905358004284"
           >
             {'#global-hub-suggestions'}
-          </a>
+          </Anchor>
           {' channel of the '}
-          <a
+          <Anchor
             target={'_blank'}
             rel={'noreferrer'}
             href="https://discord.gg/hamza"
           >
             Discord Server
-          </a>
+          </Anchor>
           .
         </Text>
       </Modal>
