@@ -231,8 +231,10 @@ const Home: NextPage = () => {
           {(tstyles) => {
             const c = servers.find((s) => s.country === country) || servers[0];
             return (
-              <Link title="Join Hamza's Discord Server" href={c.invite}>
-                <Button style={tstyles}>Join server for {c.country}</Button>
+              <Link href={c.invite}>
+                <Button title={'Join server for' + c.country} style={tstyles}>
+                  Join server for {c.country}
+                </Button>
               </Link>
             );
           }}
